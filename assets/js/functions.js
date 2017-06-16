@@ -3,6 +3,7 @@
 $(function() {
   smoothScroll(300);
   $('#spl-h3').css('visibility','visible').hide().delay(5000).fadeIn(3500);
+  $('.h-text').css('visibility','visible').hide().delay(500).fadeIn(1200);
 });
 
 function smoothScroll(duration) {
