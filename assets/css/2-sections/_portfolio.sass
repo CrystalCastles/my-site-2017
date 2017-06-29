@@ -8,35 +8,32 @@
   background-position: bottom
   
   p
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.3)
     font-size: 50px
     color: white
-    padding-top: 30px
+    padding-top: 35px
     margin-bottom: 0
     text-align: center
+
+  .all-thumbs
+    max-width: 1200px
+    @media (max-width: 900px)
+      margin-top: -80px
+    @media (max-width: 550px)
+      margin-top: -130px
+  
+  .small-thumb
+    border: solid 2px black
   
   .thumb
     position: relative
     top: 50%
     left: 50%
     transform: translate(-50%, -50%)
-    &:first-child
-      margin-top: 180px
-    margin-bottom: 20px
+    margin-top: 20px
     @media (max-width: 1270px)
       width: 100%
   
-  .wut
-    position: relative
-    display: inline-block
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
   
-  .f
-    padding-right: 0px
-    height: 300px
-    width: 300px
-    &:not(:last-child)
-      margin-right: 20px
-    @media (max-width: 1270px)
-      width: 30%
+  #first
+    margin-top: 200px
