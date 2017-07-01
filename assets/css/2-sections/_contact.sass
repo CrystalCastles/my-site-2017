@@ -5,6 +5,8 @@
     padding-top: 50px
     max-width: 450px
     margin: 0 auto 0px
+    @media (max-width: 485px)
+      margin: 0 10px 0px
   
     input, textarea
       border: 3px solid #49b0ff
@@ -49,16 +51,20 @@
       
       span
         display: block
+        color: #9e9e9e
   
   .contact-links
     margin-top: 30px
     padding-bottom: 30px
     text-align: center
-    p
-      display: inline
-      text-transform: uppercase
+    a
+      text-decoration: none
+      color: #9e9e9e
       &:not(:first-child)
-        padding-left: 20px
-      letter-spacing: 0.1em
+        padding-left: 30px
+      p
+        display: inline
+        text-transform: uppercase
+        letter-spacing: 0.1em
         
       
